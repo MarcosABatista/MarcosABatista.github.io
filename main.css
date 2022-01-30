@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 15rem;
+  clip-path: circle();
+}
+#cabecalho {
+  display: flex;
+  height: 31.25rem;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 81, 255, 0.692);
+  position: relative;
+}
+.job {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.nome {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+.icons img {
+  width: 3rem;
+}
+.icones {
+  position: absolute;
+  margin-top: 10rem;
+  margin-right: -10rem;
+}
+/* corpo */
+.container {
+  margin: 5rem 10rem 5rem 10rem;
+}
+.title {
+  text-align: center;
+}
+/* skills */
+label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4rem;
+}
+meter {
+  font-size: 1.4rem;
+  width: 100%;
+}
+/* image de fundo*/
+.fundoImagem {
+  display: flex;
+  margin: 5rem 1rem;
+  justify-content: space-between;
+}
+.box1 {
+  background: rgba(0, 81, 255, 0.692);
+  margin: 1rem;
+  padding: 0 1rem;
+}
+.box2 {
+  background: rgba(80, 69, 69, 0.699);
+  margin: 1rem;
+  padding: 0 1rem;
+}
+.box3 {
+  background: rgba(255, 255, 0, 0.788);
+  margin: 1rem;
+  padding: 0 1rem;
+}
+.subtitle {
+  text-align: center;
+  font-size: 1.3rem;
+}
+/* rodapé */
+#rodape {
+  background: rgb(44, 40, 40);
+  display: flex;
+  height: 7rem;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
