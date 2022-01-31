@@ -96,7 +96,7 @@ meter {
   font-family: 'Roboto Condensed', sans-serif;
 }
 /* media queries */
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   #cabecalho {
     display: block;
     text-align: center;
