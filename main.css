@@ -14,12 +14,13 @@ img {
   clip-path: circle();
 }
 #cabecalho {
+  display: flex;
   height: 31.25rem;
   width: 100vw;
-  display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 81, 255, 0.692);
+  background: #d0edf5;
+  position: relative;
 }
 .job {
   font-size: 1rem;
@@ -28,7 +29,6 @@ img {
 }
 
 .nome {
-  font-family: sans-serif;
   text-align: left;
   font-size: 2.5rem;
   margin-left: 2rem;
@@ -37,18 +37,21 @@ img {
   width: 3rem;
 }
 .icones {
-  justify-content: center;
+  position: absolute;
+  margin-top: 10rem;
+  margin-right: -10rem;
 }
 /* corpo */
 .container {
-  margin: 5rem 10rem;
+  margin: 5rem 10rem 5rem 10rem;
 }
 .title {
   text-align: center;
+  font-family: 'roboto', sans-serif;
 }
 /* skills */
 label {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 1.4rem;
 }
 meter {
@@ -62,27 +65,35 @@ meter {
   justify-content: space-between;
 }
 .box1 {
-  background: rgba(0, 81, 255, 0.692);
+  background: #f3f6fb;
   margin: 1rem;
   padding: 0 1rem;
+  width: 100%;
+  border-radius: 5px;
 }
 .box2 {
-  background: rgba(80, 69, 69, 0.699);
+  background: #f3f6fb;
   margin: 1rem;
   padding: 0 1rem;
+  width: 100%;
+  border-radius: 5px;
 }
 .box3 {
-  background: rgba(255, 255, 0, 0.788);
+  background: #f3f6fb;
   margin: 1rem;
   padding: 0 1rem;
+  width: 100%;
+  border-radius: 5px;
 }
 .subtitle {
   text-align: center;
   font-size: 1.3rem;
+  font-family: 'roboto', sans-serif;
+  color: #151b27;
 }
 /* rodapé */
 #rodape {
-  background: rgb(44, 40, 40);
+  background: #151b27;
   display: flex;
   height: 7rem;
   width: 100vw;
@@ -93,23 +104,6 @@ meter {
 .copy {
   text-align: center;
   font-size: 0.8rem;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-/* media queries */
-@media (max-width: 450px) {
-  #cabecalho {
-    display: block;
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .nome {
-    text-align: center;
-  }
-  .fundoImagem {
-    display: block;
-    justify-content: center;
-  }
-  .container {
-    margin: 5rem 2rem;
-  }
+  font-family: 'Roboto', sans-serif;
+  color: #f3f6fb;
 }
