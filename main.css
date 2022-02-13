@@ -20,7 +20,6 @@ img {
   align-items: center;
   justify-content: center;
   background: #d0edf5;
-  position: relative;
 }
 .job {
   font-size: 1rem;
@@ -37,13 +36,10 @@ img {
   width: 3rem;
 }
 .icones {
-  position: absolute;
-  margin-top: 10rem;
-  margin-right: -10rem;
 }
 /* corpo */
 .container {
-  margin: 5rem 10rem 5rem 10rem;
+  margin: 5rem 10rem;
 }
 .title {
   text-align: center;
