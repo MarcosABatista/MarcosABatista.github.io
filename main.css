@@ -107,3 +107,21 @@ meter {
   font-family: 'Roboto', sans-serif;
   color: #f3f6fb;
 }
+/* media queries */
+@media (max-width: 450px) {
+  #cabecalho {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .nome {
+    text-align: center;
+  }
+  .fundoImagem {
+    display: block;
+    justify-content: center;
+  }
+  .container {
+    margin: 5rem 2rem;
+  }
+}
