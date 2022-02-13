@@ -39,7 +39,7 @@ img {
 }
 /* corpo */
 .container {
-  margin: 5rem 10rem;
+  margin: 5rem 5rem;
 }
 .title {
   text-align: center;
@@ -55,7 +55,7 @@ meter {
   width: 100%;
 }
 /* image de fundo*/
-.fundoImagem {
+.boxs {
   display: flex;
   margin: 5rem 1rem;
   justify-content: space-between;
@@ -64,21 +64,18 @@ meter {
   background: #f3f6fb;
   margin: 1rem;
   padding: 0 1rem;
-  width: 100%;
   border-radius: 5px;
 }
 .box2 {
   background: #f3f6fb;
   margin: 1rem;
   padding: 0 1rem;
-  width: 100%;
   border-radius: 5px;
 }
 .box3 {
   background: #f3f6fb;
   margin: 1rem;
   padding: 0 1rem;
-  width: 100%;
   border-radius: 5px;
 }
 .subtitle {
@@ -104,7 +101,7 @@ meter {
   color: #f3f6fb;
 }
 /* media queries */
-@media (max-width: 450px) {
+@media (max-width: 650px) {
   #cabecalho {
     display: block;
     text-align: center;
@@ -113,7 +110,7 @@ meter {
   .nome {
     text-align: center;
   }
-  .fundoImagem {
+  .boxs {
     display: block;
     justify-content: center;
   }
