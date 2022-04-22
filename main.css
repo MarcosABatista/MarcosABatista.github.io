@@ -95,10 +95,8 @@ meter {
 /* preview */
 $defaltSeconds: 3s;
 #boxflex{
-  display: flex !important;
-}
-#boxflex{
-  display: flex;
+  display: flex ;
+  height: fit-content ;
 }
 
 .flex-title{
