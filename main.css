@@ -46,12 +46,23 @@ a {
 }
 /* skills */
 label {
-  font-family: 'roboto', sans-serif;
-  font-size: 1.4rem;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  text-transform: bold;
 }
 meter {
   font-size: 1.4rem;
-  width: 100%;
+  width: 100%;  
+}
+#html,#css, #js, #git, #sql, #boot {
+  animation: 5s lop infinite;
+}
+@keyframes lop{
+  from{
+    width: 0%;
+  }to{
+    width: 100%;
+  }
 }
 /* image de fundo*/
 
@@ -94,9 +105,9 @@ meter {
 
 /* preview */
 $defaltSeconds: 3s;
+
 #boxflex{
-  display: flex ;
-  height: fit-content ;
+  display: block ;
 }
 
 .flex-title{
@@ -105,7 +116,7 @@ $defaltSeconds: 3s;
   font-size: 6vw;
   margin: auto;
   text-align: center;
-  transform: rotate(90deg);
+  transform: rotate(0deg);
   top: 15%;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -170,7 +181,7 @@ $defaltSeconds: 3s;
 }
 
 .home,.about,.work{
-  height:100vh;
+  height:40vh;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(files/fundo\ corpo.jpg);
   background-size: cover;
   background-position: center center;

@@ -12,7 +12,7 @@
       },
       function () {
         $(this).find('.flex-title').css({
-          tranform: 'rotate(90deg)',
+          tranform: 'rotate(0deg)',
           top: '15%'
         })
         $(this).find('.flex-about').css({
