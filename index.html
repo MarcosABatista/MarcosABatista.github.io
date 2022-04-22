@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
 
+    <!-- Style icons -->
+    <link rel="stylesheet" href="icones/style.css" />
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +21,7 @@
   <body>
     <section id="cabecalho">
       <div class="cabecalho">
-        <img src="files/Design sem nome.png" alt="foto marcos" />
+        <img src="files/Design sem nome.png" alt="foto marcos" id="foto" />
       </div>
       <div class="icones">
         <p class="nome">
@@ -30,14 +33,14 @@
           class="icons"
           target="_blanck"
         >
-          <img src="icones/icons8-linkedin-48.png" />
+          <img src="icones/SVG/linkedin.svg" />
         </a>
         <a
           href="https://github.com/MarcosABatista"
           target="_blanck"
           class="icons"
         >
-          <img src="icones/icons8-github-48.png" />
+          <img src="icones/SVG/github.svg" />
         </a>
       </div>
     </section>
@@ -129,57 +132,67 @@
         </div>
       </div>
 
-      <div class="boxs">
-        <div class="box1">
-          <h2 class="subtitle">Formação academica</h2>
-          <p class="texto">
-            Formado em Gestão da tecnologia da informação(GTI) na Faculdade
-            Adventista da Bahia(FADBA). <br />
-            Início: 02/2017 <br />
-            Conclusão: 06/2019
-          </p>
+      <!--preview-->
+      <div id="boxflex">
+        <div class="flex-slide home">
+          <div class="flex-title flex-title-home">Formação</div>
+          <div class="flex-about flex-about-home">
+            <p>
+              Formado em Gestão da tecnologia da informação(GTI) na Faculdade
+              Adventista da Bahia(FADBA). Início: 02/2017 Conclusão: 06/2019
+            </p>
+          </div>
         </div>
-        <div class="box2">
-          <h2 class="subtitle">Experiências</h2>
-          <p class="texto">
-            Estagio: <br />
-            Faculdade Adventista da Bahia <br />
-            Suporte e manutenção dos laboratorios de informatica. <br />
-            Início: 02/2017 Fim: 12/2018
-          </p>
+
+        <div class="flex-slide about">
+          <div class="flex-title">Experiências</div>
+          <div class="flex-about">
+            <p>
+              Estagio: Faculdade Adventista da Bahia Suporte e manutenção dos
+              laboratorios de informatica. Início: 02/2017 Fim: 12/2018
+            </p>
+          </div>
         </div>
-        <div class="box3">
-          <h2 class="subtitle">Objetivos</h2>
-          <p class="texto">
-            Atuar como desenvolvedor front-end, aprendendo e me aperfeiçoando a
-            cada dia para ajudar nas resoluções de problemas e criação de
-            soluções no ambiente da web.
-          </p>
+
+        <div class="flex-slide work">
+          <div class="flex-title">Objetivos</div>
+          <div class="flex-about">
+            <p>
+              Atuar como desenvolvedor front-end, aprendendo e me aperfeiçoando
+              a cada dia para ajudar nas resoluções de problemas e criação de
+              soluções no ambiente da web.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <footer id="rodape">
       <div id="icone">
-        <a
-          href="https://www.facebook.com/profile.php?id=100012910414175"
-          class="icons"
-          target="_blanck"
-        >
-          <img src="icones/icons8-facebook-novo-48.png" alt="" />
-        </a>
-        <a
-          href="https://www.instagram.com/marcos.xp7/"
-          class="icons"
-          target="_blanck"
-        >
-          <img src="icones/icons8-instagram-48.png" alt="" />
-        </a>
-        <a href="mailto:marck.araujo.batista@gmail.com" class="icons">
-          <img src="icones/icons8-gmail-48.png" alt="" />
-        </a>
+        <!-- svg -->
+        <a href="icones/SVG/gmail.svg"
+          ><img src="icones/SVG/facebook.svg" alt="logo facebook" class="icons"
+        /></a>
+        <a href=""
+          ><img src="icones/SVG/gmail.svg" alt="logo facebook" class="icons"
+        /></a>
+        <a href="icones/SVG/gmail.svg"
+          ><img
+            src="icones/SVG/instagram1.svg"
+            alt="logo facebook"
+            class="icons"
+        /></a>
+
         <p class="copy">Marcos araujo &#169; 2022</p>
       </div>
     </footer>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/jquery.waitforimages.min.js"></script>
+
+    <script src="icones/svgxuse.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
