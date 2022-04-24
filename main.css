@@ -132,7 +132,7 @@ $defaltSeconds: 3s;
   width: 70%;
   font-size: 1rem;
   padding: 0.8rem 2.5rem;
-  top: 2rem;
+  top: 3rem;
   border: 2px solid #f1f1f1;
   border-radius: 10px;
   line-height: 1.3;
@@ -150,7 +150,7 @@ $defaltSeconds: 3s;
 }
 
 .home,.about,.work{
-  height:35vh;
+  height:40vh;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(files/fundo\ corpo.jpg);
   background-size: cover;
   background-position: center center;
