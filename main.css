@@ -150,7 +150,7 @@ $defaltSeconds: 3s;
 }
 
 .home,.about,.work{
-  height:30vh;
+  height:35vh;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(files/fundo\ corpo.jpg);
   background-size: cover;
   background-position: center center;
