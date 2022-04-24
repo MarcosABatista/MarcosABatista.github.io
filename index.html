@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="icones/style.css" />
 
     <!-- fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https: //fonts.googleapis.com/css2? family= Playfair+Display:wght@500;700 & family= Roboto:wght@700 & display=swap"
+      href="https: //fonts.googleapis.com/css2? family= Areia movediça & family= Signika+Negative:wght@400;500;700 & display=swap"
       rel="stylesheet"
     />
+
     <title>Marcos de Araujo</title>
   </head>
   <body>
@@ -45,14 +47,35 @@
       </div>
     </section>
 
+    <div class="dividir"></div>
+
     <section id="corpo">
       <div class="container">
+        <div id="projetos">
+          <h1 class="title">Projetos</h1>
+          <div id="cards">
+            <div class="card"> <a href="https://github.com/MarcosABatista/testeCafe" target="_blanck"> <img src="files/projetos/tela coffe.png"></img>
+              <h3 class="sub">Projeto coffe</h3>
+            <p class="descricao">Projeto para estudo de uma tela de um site de cafeteria.</p>
+          </a>
+            </div>
+            <div class="card"> <a href="https://pedromourafilho.github.io/" target="_blanck"> <img src="files/projetos/projeto pedro.jpg"></img><h3 class="sub">Pedro Moura</h3>
+              <p class="descricao">Um Projeto de criação de um perfil pessoal para um personal.</p>
+            </a> </div>
+            <div class="card"> <a href="https://github.com/MarcosABatista/upFinam" target="_blanck"> <img src="files/projetos/up finam.jpg"></img><h3 class="sub">Projeto finanças</h3>
+              <p class="descricao">Uma tela de teste para aperfeiçoar conhecimentos.</p>
+            </a></div>
+            <div class="card"> <a href="https://github.com/MarcosABatista/teste-banco-toyota" target="_blanck"> <img src="files/projetos/toyota.jpg"></img><h3 class="sub">Banco toyota</h3>
+              <p class="descricao">Pagina feita de um teste para uma vaga de dev Front-end.</p>
+            </a> </div>
+          </div>
+        </div>
         <div id="sobre">
           <h1 class="title">Sobre</h1>
           <p class="texto">
             Olá, meu nome é Marcos de Araujo Batista, tenho 21 anos de idade.
             Graduado em gestão da tecnologia da informação(GTI) pela Faculdade
-            Adventista da Bahia(FADBA). <br />
+            Adventista da Bahia(FADBA).
             Amante da tecnologia e suas ramificações. <br />
             Usuário das tecnologias HTML5, CSS3, Bootstrap, Git, Github, MySQL.
             <br />
@@ -66,75 +89,26 @@
           <h1 class="title">Skills</h1>
           <label for="html">HTML </label>
           <br />
-          <meter
-            id="html"
-            min="0"
-            max="100"
-            low="35"
-            high="65"
-            optimum="95"
-            value="80"
-          ></meter>
+          <progress id="html" value="80" max="100"></progress>
           <br />
           <label for="css">CSS </label>
           <br />
-          <meter
-            id="css"
-            min="0"
-            max="100"
-            low="35"
-            high="65"
-            optimum="95"
-            value="70"
-          ></meter>
+          <progress id="css" value="70" max="100"></progress>
           <br />
           <label for="javaScript">Java Script </label>
           <br />
-          <meter
-            id="js"
-            min="0"
-            max="100"
-            low="35"
-            high="50"
-            optimum="95"
-            value="65"
-          ></meter>
+          <progress id="javaScript" value="70" max="100"></progress>
           <br />
-          <label for="GIT">GIT </label>
+          <label for="git">GIT </label>
           <br />
-          <meter
-            id="git"
-            min="0"
-            max="100"
-            low="35"
-            high="50"
-            optimum="95"
-            value="60"
-          ></meter>
+          <progress id="git" value="50" max="100"></progress>
           <br />
-          <label for="SQL">MySQL</label>
+          <label for="sql">SQL</label>
           <br />
-          <meter
-            id="sql"
-            min="0"
-            max="100"
-            low="35"
-            high="50"
-            optimum="95"
-            value="60"
-          ></meter>
+          <progress id="sql" value="60" max="100"></progress>
           <br />
           <label for="bot">Bootstrap</label>
-          <br />
-          <meter
-            id="boot"
-            min="0"
-            max="100"
-            low="35"
-            high="60"
-            optimum="95"
-            value="60"
-          ></meter>
+          <progress id="bot" value="50" max="100"></progress>
         </div>
       </div>
 
@@ -145,7 +119,7 @@
           <div class="flex-about flex-about-home">
             <p>
               Formado em Gestão da tecnologia da informação(GTI) na Faculdade
-              Adventista da Bahia(FADBA). Início: 02/2017 Conclusão: 06/2019
+              Adventista da Bahia(FADBA). <br> Início: 02/2017 Conclusão: 06/2019
             </p>
           </div>
         </div>
@@ -154,8 +128,8 @@
           <div class="flex-title">Experiências</div>
           <div class="flex-about">
             <p>
-              Estagio: Faculdade Adventista da Bahia Suporte e manutenção dos
-              laboratorios de informatica. Início: 02/2017 Fim: 12/2018
+              Estagio: Faculdade Adventista da Bahia. <br> Suporte e manutenção dos
+              laboratorios de informatica. <br> Início: 02/2017 Fim: 12/2018
             </p>
           </div>
         </div>
@@ -165,7 +139,7 @@
           <div class="flex-about">
             <p>
               Atuar como desenvolvedor front-end, aprendendo e me aperfeiçoando
-              a cada dia para ajudar nas resoluções de problemas e criação de
+              a cada dia, para ajudar nas resoluções de problemas e criação de
               soluções no ambiente da web.
             </p>
           </div>
