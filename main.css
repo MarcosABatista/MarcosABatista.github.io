@@ -8,8 +8,8 @@ html {
   scroll-behavior: smooth;
 }
 .dividir{
-  border: 1px solid #caff42;
-  animation: 0.3s lop infinite ;
+  border-bottom: 1px solid #caff42;
+  animation: 2s lop infinite ;
 }
 @keyframes lop{
   from{
@@ -98,13 +98,21 @@ a {
 }
 
 /* skills */
+.skill{
+  text-align: center;
+}
+.skills{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
 label {
   font-family: 'Signika Negative', sans-serif;
   color: #f3f6fb;
   font-size: 1.5rem;
 }
 
-#bot, #html, #css, #git, #javaScript, #sql{
+#bot, #html, #css, #git, #javaScript, #sql, #C {
   font-size: 1.4rem;
   width: 100%;
 }
