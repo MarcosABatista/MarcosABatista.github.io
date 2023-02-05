@@ -8,7 +8,13 @@
 
     <!-- Style icons -->
     <link rel="stylesheet" href="icones/style.css" />
-
+    <!-- Style Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <!-- fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,172 +24,241 @@
       rel="stylesheet"
     />
 
-    <title>Marcos de Araujo</title>
+    <title>Marcos de Araujo Batista</title>
   </head>
   <body>
     <section id="cabecalho">
+      <header id="navegation">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end text-bg-dark"
+              tabindex="-1"
+              id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                  Marcos de Araujo Batista
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" target="_blank" href="https://drive.google.com/file/d/13yJ9N2jCAmNR5MxK5fEroRMK_D_nu1bk/view?usp=sharing"
+                      >Dowload do Curriculo</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/marcos-araujo-batista/">Linkedin</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://github.com/MarcosABatista">Git Hub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.instagram.com/marcos.xp7/">Instagram</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Links de projetos
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://pedromourafilho.github.io/"
+                          >Pedro Moura</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://kamillarcastro.netlify.app/"
+                          >Kamilla Rocha</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://github.com/MarcosABatista/EditorDeArquivoCsharp/tree/main/Editor"
+                          >Editor de arquivos em C#</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://github.com/MarcosABatista/ListaDeArquivos/tree/main/ListaDeArquivos"
+                          >Lista de Arquivos</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
       <div class="cabecalho">
         <img src="files/Design sem nome.png" alt="foto marcos" id="foto" />
       </div>
-      <div class="icones">
+      <div id="descPessoa">
         <p class="nome">
-          Marcos Araujo <br />
-          <span class="job">Full Stack developer</span>
+          Marcos Araujo
         </p>
-        <a
-          href="https://www.linkedin.com/in/marcos-araujo-batista"
-          class="icons"
-          target="_blanck"
-        >
-          <img src="icones/SVG/linkedin.svg" />
-        </a>
-        <a
-          href="https://github.com/MarcosABatista"
-          target="_blanck"
-          class="icons"
-        >
-          <img src="icones/SVG/github.svg" />
-        </a>
+        <span class="job">Full Stack developer</span>
+        <a href="https://drive.google.com/file/d/13yJ9N2jCAmNR5MxK5fEroRMK_D_nu1bk/view?usp=sharing" target="_blank"><button type="button" class="btn btn-outline-secondary">
+            Dowload CV
+         </button></a>
       </div>
     </section>
 
     <div class="dividir"></div>
 
+    <section id="hardskill">
+      <h1 class="title">Skills</h1>
+      <div class="skills container">
+        <div class="skill">
+          <img src="icones/SVG/icons8-html-5.svg" />
+          <p class="texto">HTML5</p>
+        </div>
+        <div class="skill">
+          <img src="icones/SVG/icons8-css3.svg" />
+          <p class="texto">CSS 3</p>
+        </div>
+
+        <div class="skill">
+          <img src="icones/SVG/icons8-javascript.svg" />
+          <p class="texto">Java Script</p>
+        </div>
+
+        <div class="skill">
+          <img src="icones/SVG/icons8-c-afiado-logotipo.svg" />
+          <p class="texto">C#</p>
+        </div>
+
+        <div class="skill">
+          <img src="icones/SVG/icons8-bootstrap.svg" />
+          <p class="texto">Bootstrap</p>
+        </div>
+
+        <div class="skill">
+          <img src="icones/SVG/icons8-microsoft-sql-server.svg" />
+          <p class="texto">SQL Server</p>
+        </div>
+
+        <div class="skill">
+          <img src="icones/SVG/icons8-git.svg" />
+          <p class="texto">GIT</p>
+        </div>
+      </div>
+    </section>
+
     <section id="corpo">
       <div class="container">
-        <div id="projetos">
-          <h1 class="title">Projetos</h1>
-          <div id="cards">
-            <div class="card"> <a href="https://github.com/MarcosABatista/testeCafe" target="_blanck"> <img src="files/projetos/tela coffe.png"></img>
-              <h3 class="sub">Projeto coffe</h3>
-            <p class="descricao">Projeto para estudo de uma tela de um site de cafeteria.</p>
-          </a>
-            </div>
-            <div class="card"> <a href="https://pedromourafilho.github.io/" target="_blanck"> <img src="files/projetos/projeto pedro.jpg"></img><h3 class="sub">Pedro Moura</h3>
-              <p class="descricao">Um Projeto de criação de um perfil pessoal para um personal.</p>
-            </a> </div>
-            <div class="card"> <a href="https://github.com/MarcosABatista/upFinam" target="_blanck"> <img src="files/projetos/up finam.jpg"></img><h3 class="sub">Projeto finanças</h3>
-              <p class="descricao">Uma tela de teste para aperfeiçoar conhecimentos.</p>
-            </a></div>
-            <div class="card"> <a href="https://github.com/MarcosABatista/teste-banco-toyota" target="_blanck"> <img src="files/projetos/toyota.jpg"></img><h3 class="sub">Banco toyota</h3>
-              <p class="descricao">Pagina feita de um teste para uma vaga de dev Front-end.</p>
-            </a> </div>
-          </div>
-        </div>
         <div id="sobre">
           <h1 class="title">Sobre</h1>
           <p class="texto">
-            Formado em Gestão da Tecnologia da Informação pela FADBA(Faculdade Adventista da Bahia), atuo na área de programação e desenvolvimento de softweres.
-            No meu tempo livre gosto de me atualizar, tanto proficionalmente quanto socialmente. Gosto também de praticar exercicios para equilibrio do corpo e da mente.
-            No trabalho, atualmente, sou da equipe de desenvolvimento e mautenção dos softweres da empresa, atuando a partir de demandas propostas pelo cliente.
-            Para me cohecer melhor, acesse aqui abaixo o link do meu instagram! <br><br>
-            <a href="https://www.instagram.com/marcos.xp7/" class="title">@marcos.xp7</a>
+            Formado em Gestão da Tecnologia da Informação pela FADBA(Faculdade
+            Adventista da Bahia), atuo na área de programação e desenvolvimento
+            de softweres. No meu tempo livre gosto de me atualizar, tanto
+            proficionalmente quanto socialmente. Gosto também de praticar
+            exercicios para equilibrio do corpo e da mente. No trabalho,
+            atualmente, sou da equipe de desenvolvimento e mautenção dos
+            softweres da empresa, atuando a partir de demandas propostas pelo
+            cliente. Para me cohecer melhor, acesse aqui abaixo o link do meu
+            instagram! <br /><br />
+            <a href="https://www.instagram.com/marcos.xp7/" class="title"
+              >@marcos.xp7</a
+            >
           </p>
         </div>
       </div>
-      
-        <section id="hardskill">
-        <h1 class="title">Skills</h1>
-        <div class="skills container "> 
-          
-          <div class="skill">
-            <img src="icones/SVG/icons8-html-5.svg">
-            <p class="texto">HTML5</p>
-            
-          </div>   
-          <div class="skill">
-            <img src="icones/SVG/icons8-css3.svg">
-            <p class="texto">CSS 3</p>
-          </div>        
-
-          <div class="skill">
-            <img src="icones/SVG/icons8-javascript.svg">
-            <p class="texto">Java Script</p>
-          </div> 
-
-          <div class="skill">
-            <img src="icones/SVG/icons8-c-afiado-logotipo.svg">
-            <p class="texto">C#</p>
-          </div> 
-
-          <div class="skill">
-            <img src="icones/SVG/icons8-bootstrap.svg">
-            <p class="texto">Bootstrap</p>
-          </div> 
-
-          <div class="skill">
-            <img src="icones/SVG/icons8-microsoft-sql-server.svg">
-            <p class="texto">SQL Server</p>
-          </div> 
-
-          <div class="skill">
-            <img src="icones/SVG/icons8-git.svg">
-            <p class="texto">GIT</p>
-          </div> 
-
-          
-          
-        </div>
-      </section>
-      
 
       <!--preview-->
-      <div id="boxflex">
-        <div class="flex-slide home">
-          <div class="flex-title flex-title-home">Formação</div>
-          <div class="flex-about flex-about-home">
-            <p>
-              Formado em Gestão da tecnologia da informação(GTI) na Faculdade
-              Adventista da Bahia(FADBA). <br> Início: 02/2017 Conclusão: 06/2019
-            </p>
-          </div>
+      <div id="boxflex" class="container">
+        <div class="infoBox">
+          <h1 class="title">Formação</h1>
+          <p class="texto">
+            Formado em Gestão da tecnologia da informação(GTI) na Faculdade
+            Adventista da Bahia(FADBA). <br />
+            Início: 02/2017 Conclusão: 06/2019
+          </p>
         </div>
-
-        <div class="flex-slide about">
-          <div class="flex-title">Experiências</div>
-          <div class="flex-about">
-            <p>
-              Estagio: Faculdade Adventista da Bahia. <br> Suporte e manutenção dos
-              laboratorios de informatica. <br> Início: 02/2017 Fim: 12/2018
-            </p>
-          </div>
+        <div class="infoBox">
+          <h1 class="title">Experiaencias</h1>
+          <p class="texto">
+            Estagio: Faculdade Adventista da Bahia. <br />
+            Suporte e manutenção dos laboratorios de informatica. <br />
+            Início: 02/2017 Fim: 12/2018
+          </p>
         </div>
-
-        <div class="flex-slide work">
-          <div class="flex-title">Objetivos</div>
-          <div class="flex-about">
-            <p>
-              Atuar como desenvolvedor front-end, aprendendo e me aperfeiçoando
-              a cada dia, para ajudar nas resoluções de problemas e criação de
-              soluções no ambiente da web.
-            </p>
-          </div>
+        <div class="infoBox">
+          <h1 class="title">Objetivos</h1>
+          <p class="texto">
+            Atuar como desenvolvedor front-end, aprendendo e me aperfeiçoando a
+            cada dia, para ajudar nas resoluções de problemas e criação de
+            soluções no ambiente da web.
+          </p>
         </div>
       </div>
     </section>
 
     <footer id="rodape">
-      <div id="icone">
         <!-- svg -->
-        <a
-          href="https://www.facebook.com/profile.php?id=100012910414175"
-          target="_blanck"
-          ><img src="icones/SVG/facebook.svg" alt="logo facebook" class="icons"
-        /></a>
-        <a href="mailto:marck.araujo.batista@gmail.com" target="_blanck"
-          ><img src="icones/SVG/gmail.svg" alt="logo email" class="icons"
-        /></a>
-        <a href="https://www.instagram.com/_marcos.araujo/" target="_blanck"
-          ><img
-            src="icones/SVG/instagram1.svg"
-            alt="logo instagram"
-            class="icons"
-        /></a>
+        <div id="icones">
+          <a
+            href="https://www.facebook.com/profile.php?id=100012910414175"
+            target="_blanck"
+            ><img src="icones/SVG/facebook.svg" alt="logo facebook" class="icons"
+          /></a>
+          <a href="mailto:marck.araujo.batista@gmail.com" target="_blanck"
+            ><img src="icones/SVG/gmail.svg" alt="logo email" class="icons"
+          /></a>
+          <a href="https://www.instagram.com/marcos.xp7/" target="_blanck"
+            ><img
+              src="icones/SVG/instagram1.svg"
+              alt="logo instagram"
+              class="icons"
+          /></a>
+        </div>
+        
 
         <p class="copy">Marcos araujo &#169; 2022</p>
       </div>
     </footer>
 
+    <!--Js Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
